@@ -1,3 +1,3 @@
-module github.com/goodsign/monday
+module github.com/ruang-guru/monday
 
-go 1.13
+go 1.16
