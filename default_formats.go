@@ -440,8 +440,8 @@ var ShortFormatsByLocale = map[Locale]string{
 	LocaleCsCZ: DefaultFormatCsCZShort,
 	LocaleUkUA: DefaultFormatUkUAShort,
 	LocaleLtLT: DefaultFormatLtLTShort,
-	LocaleThTH: DefaultFormatThTHMedium,
-	LocaleVnVN: DefaultFormatVnVNMedium,
+	LocaleThTH: DefaultFormatThTHShort,
+	LocaleVnVN: DefaultFormatVnVNShort,
 }
 
 // DateTimeFormatsByLocale maps locales to the 'DateTime' date formats for
