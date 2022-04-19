@@ -262,12 +262,14 @@ const (
 	DefaultFormatThTHMedium   = "2 Jan 2006"
 	DefaultFormatThTHShort    = "2/1/2006"
 	DefaultFormatThTHDateTime = "2/1/2006 3:04 PM"
+	DefaultFormatThTHTime     = "15:04"
 
 	DefaultFormatVnVNFull     = "Monday, 2 January 2006" // Vietnamese (Vietnam)
 	DefaultFormatVnVNLong     = "2 January 2006"
 	DefaultFormatVnVNMedium   = "2 Jan 2006"
 	DefaultFormatVnVNShort    = "2/1/2006"
 	DefaultFormatVnVNDateTime = "2/1/2006 3:04 PM"
+	DefaultFormatVnVNTime     = "15:04"
 )
 
 // FullFormatsByLocale maps locales to the'full' date formats for all
@@ -309,6 +311,8 @@ var FullFormatsByLocale = map[Locale]string{
 	LocaleCsCZ: DefaultFormatCsCZFull,
 	LocaleUkUA: DefaultFormatUkUAFull,
 	LocaleLtLT: DefaultFormatLtLTFull,
+	LocaleThTH: DefaultFormatThTHFull,
+	LocaleVnVN: DefaultFormatVnVNFull,
 }
 
 // LongFormatsByLocale maps locales to the 'long' date formats for all
@@ -350,6 +354,8 @@ var LongFormatsByLocale = map[Locale]string{
 	LocaleCsCZ: DefaultFormatCsCZLong,
 	LocaleUkUA: DefaultFormatUkUALong,
 	LocaleLtLT: DefaultFormatLtLTLong,
+	LocaleThTH: DefaultFormatThTHLong,
+	LocaleVnVN: DefaultFormatVnVNLong,
 }
 
 // MediumFormatsByLocale maps locales to the 'medium' date formats for all
@@ -391,6 +397,8 @@ var MediumFormatsByLocale = map[Locale]string{
 	LocaleCsCZ: DefaultFormatCsCZMedium,
 	LocaleUkUA: DefaultFormatUkUAMedium,
 	LocaleLtLT: DefaultFormatLtLTMedium,
+	LocaleThTH: DefaultFormatThTHMedium,
+	LocaleVnVN: DefaultFormatVnVNMedium,
 }
 
 // ShortFormatsByLocale maps locales to the 'short' date formats for all
@@ -432,6 +440,8 @@ var ShortFormatsByLocale = map[Locale]string{
 	LocaleCsCZ: DefaultFormatCsCZShort,
 	LocaleUkUA: DefaultFormatUkUAShort,
 	LocaleLtLT: DefaultFormatLtLTShort,
+	LocaleThTH: DefaultFormatThTHMedium,
+	LocaleVnVN: DefaultFormatVnVNMedium,
 }
 
 // DateTimeFormatsByLocale maps locales to the 'DateTime' date formats for
@@ -473,6 +483,8 @@ var DateTimeFormatsByLocale = map[Locale]string{
 	LocaleCsCZ: DefaultFormatCsCZDateTime,
 	LocaleUkUA: DefaultFormatUkUADateTime,
 	LocaleLtLT: DefaultFormatLtLTDateTime,
+	LocaleThTH: DefaultFormatThTHDateTime,
+	LocaleVnVN: DefaultFormatVnVNDateTime,
 }
 
 // TimeFormatsByLocale maps locales to the 'Time' date formats for
@@ -514,4 +526,6 @@ var TimeFormatsByLocale = map[Locale]string{
 	LocaleCsCZ: DefaultFormatCsCZTime,
 	LocaleUkUA: DefaultFormatUkUATime,
 	LocaleLtLT: DefaultFormatLtLTTime,
+	LocaleThTH: DefaultFormatThTHTime,
+	LocaleVnVN: DefaultFormatVnVNTime,
 }
