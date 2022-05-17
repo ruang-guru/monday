@@ -47,7 +47,7 @@ const (
 	LocaleSlSI = "sl_SI" // Slovenian (Slovenia)
 	LocaleLtLT = "lt_LT" // Lithuanian (Lithuania)
 	LocaleThTH = "th_TH" // Thai (Thailand)
-	LocaleVnVN = "vn_VN" // Vietnamese (Vietname)
+	LocaleVnVN = "vn_VN" // Vietnamese (Vietnam)
 )
 
 // ListLocales returns all locales supported by the package.
